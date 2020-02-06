@@ -1,5 +1,5 @@
 import java.util.*;
-public class StrategicSearch implements SearchStrategy{
+public class StrategicSearch{
 	public int[] findingshipsefficient(int game[][]){
 		int[] result=new int[4];
 		int[] coordinates=new int[9];

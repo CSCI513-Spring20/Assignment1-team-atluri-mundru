@@ -52,6 +52,9 @@ public class BattleShip {
 						  // }
 						   //System.out.println();
 						//}
+					// Creating object and calling method of Horizontal Sweep Strategy
+					HorizontalSweepStrategy horizontal_strategy = new HorizontalSweepStrategy();
+					horizontal_strategy.search(game);
 					// Creating object and calling method of random search strategy
 					RandomSearchStrategy random_strategy = new RandomSearchStrategy();
 					random_strategy.search(game);
@@ -64,7 +67,7 @@ public class BattleShip {
 					//} 
 					System.out.println("Strategy:Strategic Search");
 					System.out.println("Number of Cells Searched:"+result[8]);
-					System.out.print("Carrier Found:"+"("+result[0]+","+result[1]+")"+"to"+"("+"("+result[2]+","+result[3]+")");
+					System.out.print("Carrier Found:"+"("+result[0]+","+result[1]+")"+"to"+"("+result[2]+","+result[3]+")");
 					System.out.println(" SubMarine Found:"+"("+result[4]+","+result[5]+")"+"to"+"("+"("+result[6]+","+result[7]+")");
 					//System.out.println("-------------------------------------------------");
 					for (int row = 0; row < game.length; row++) {
