@@ -52,6 +52,10 @@ public class BattleShip {
 						  // }
 						   //System.out.println();
 						//}
+					// Creating object and calling method of random search strategy
+					RandomSearchStrategy random_strategy = new RandomSearchStrategy();
+					random_strategy.search(game);
+					//  Creating object and calling method of Strategic Search
 					StrategicSearch strategy = new StrategicSearch();
 					int result[]=strategy.findingshipsefficient(game);
 					//for(int s=0;s<8;s++) {
