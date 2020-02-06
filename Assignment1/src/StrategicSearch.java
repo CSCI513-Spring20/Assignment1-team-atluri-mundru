@@ -8,8 +8,7 @@ public class StrategicSearch implements SearchStrategy{
 		int carrierStartIndex=0;
 		boolean checkCarrier=false;
 		boolean checkSubmarine=false;
-		
-
+		njmklm;
 		int cells = 0;
 //		int mid=game[12][12];
 //		int count=0;

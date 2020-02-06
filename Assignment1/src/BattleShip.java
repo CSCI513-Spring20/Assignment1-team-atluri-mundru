@@ -40,6 +40,7 @@ public class BattleShip {
 						else {
 							game[a][b] = submarine;
 							
+							
 						}
 			  }
 					
